@@ -259,7 +259,7 @@ const PRODUCTS = [
         "category": "Crinkles",
         "price": 135,
         "description": "Soft strawberry-flavored crinkles with a delicate sweetness and a pretty powdered finish. Pack of 6.",
-        "image": "https://cupofyum.com/uploads/images/000/222/539/222539-strawberry-crinkle-cookies-b80b4e6d884129334d956f7012983dda.jpg",
+        "image": "strawberry-crinkles.jpg",
         "best": false,
         "keywords": "strawberry crinkles crinkles soft strawberry-flavored crinkles with a delicate sweetness and a pretty powdered finish. pack of 6. strawberry pink cookies crinkle pack of six",
         "unit": "Pack of 6"
