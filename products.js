@@ -17,7 +17,7 @@ const PRODUCTS = [
         "category": "Cakes",
         "price": 195,
         "description": "Moist chocolate layers with silky fudge.",
-        "image": "images/chocolate-fudge-cake.jpg",
+        "image": "chocolate-fudge-cake.jpg",
         "best": false,
         "keywords": "chocolate fudge cake cakes moist chocolate layers with silky fudge.",
         "unit": "Per slice"
@@ -94,7 +94,7 @@ const PRODUCTS = [
         "category": "Cakes",
         "price": 95,
         "description": "Soft vanilla sponge with fluffy frosting.",
-        "image": "images/vanilla-cupcake.jpg",
+        "image": "vanilla-cupcake.jpg",
         "best": false,
         "keywords": "vanilla cupcake cakes soft vanilla sponge with fluffy frosting.",
         "unit": "Per piece"
@@ -105,7 +105,7 @@ const PRODUCTS = [
         "category": "Bread",
         "price": 125,
         "description": "Crackly crust and airy, soft center.",
-        "image": "images/french-baguette.jpg",
+        "image": "french-baguette.jpg",
         "best": false,
         "keywords": "french baguette bread crackly crust and airy, soft center.",
         "unit": "Per loaf"
@@ -182,7 +182,7 @@ const PRODUCTS = [
         "category": "Bread",
         "price": 135,
         "description": "Soft savory bun with a cheesy filling.",
-        "image": "images/ham-and-cheese.jpg",
+        "image": "ham-and-cheese.jpg",
         "best": false,
         "keywords": "ham & cheese bun bread soft savory bun with a cheesy filling.",
         "unit": "Per piece"
@@ -237,7 +237,7 @@ const PRODUCTS = [
         "category": "Crinkles",
         "price": 145,
         "description": "Soft cocoa cookies with creamy vanilla notes and cookie crumb pieces. Pack of 6.",
-        "image": "images/cookies-and-cream-crinkles.jpg",
+        "image": "cookies-and-cream-crinkles.jpg",
         "best": false,
         "keywords": "cookies and cream crinkles crinkles soft cocoa cookies with creamy vanilla notes and cookie crumb pieces. pack of 6. cookies cream oreo chocolate crinkle pack of six",
         "unit": "Pack of 6"
@@ -270,7 +270,7 @@ const PRODUCTS = [
         "category": "Cakes",
         "price": 95,
         "description": "Moist chocolate sponge topped with smooth chocolate frosting.",
-        "image": "images/chocolate-cupcakes.jpg",
+        "image": "chocolate-cupcakes.jpg",
         "best": false,
         "keywords": "chocolate cupcakes cakes moist chocolate sponge topped with smooth chocolate frosting. chocolate cupcake cocoa frosting",
         "unit": "Per piece"
@@ -292,7 +292,7 @@ const PRODUCTS = [
         "category": "Bread",
         "price": 145,
         "description": "Moist banana loaf with a gently caramelized crust and comforting flavor.",
-        "image": "images/banana-bread.jpg",
+        "image": "banana-bread.jpg",
         "best": false,
         "keywords": "banana bread bread moist banana loaf with a gently caramelized crust and comforting flavor. banana loaf quick bread",
         "unit": "Per loaf"
@@ -303,7 +303,7 @@ const PRODUCTS = [
         "category": "Bread",
         "price": 85,
         "description": "Soft, pillowy rolls filled with savory cheese and baked until golden.",
-        "image": "images/cheese-rolls.jpg",
+        "image": "cheese-rolls.jpg",
         "best": false,
         "keywords": "cheese rolls bread soft, pillowy rolls filled with savory cheese and baked until golden. cheese bread roll savory",
         "unit": "Per piece"
@@ -314,7 +314,7 @@ const PRODUCTS = [
         "category": "Bread",
         "price": 75,
         "description": "A soft, buttery Filipino brioche-style bread finished with cheese and a light sweetness.",
-        "image": "images/ensaymada.jpg",
+        "image": "ensaymada.jpg",
         "best": false,
         "keywords": "ensaymada bread a soft, buttery filipino brioche-style bread finished with cheese and a light sweetness. filipino ensaymada cheese bread",
         "unit": "Per piece"
