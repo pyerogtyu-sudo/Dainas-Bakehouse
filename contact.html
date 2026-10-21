@@ -1,0 +1,239 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Daina’s Bakehouse — bakery favorites, cakes, pastries, bread and coffee.">
+
+    <title>Contact Us | Daina’s Bakehouse</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="products.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="announcement">
+        A little sweetness in every day
+    </div>
+
+    <header class="site-header">
+        <div class="header-main">
+            <a class="brand" href="index.html" aria-label="Daina’s Bakehouse home">
+                <span class="brand-icon">✳</span>
+                <span>
+                    Daina’s <em>Bakehouse</em>
+                    <small>BAKED WITH LOVE · BREWED WITH CARE</small>
+                </span>
+            </a>
+
+            <form class="search" id="searchForm" role="search">
+                <label class="sr-only" for="siteSearch">Search products</label>
+                <input
+                    id="siteSearch"
+                    type="search"
+                    autocomplete="off"
+                    placeholder="Search cakes, pastries, bread, and coffee..."
+                    aria-controls="searchResults"
+                    aria-expanded="false"
+                >
+                <button
+                    type="button"
+                    id="clearSearch"
+                    class="search-clear"
+                    aria-label="Clear search"
+                >×</button>
+                <button
+                    type="submit"
+                    aria-label="Search products"
+                    class="search-submit"
+                >⌕</button>
+                <div
+                    id="searchResults"
+                    class="search-results"
+                    role="listbox"
+                    hidden
+                ></div>
+            </form>
+
+            <div class="header-actions">
+                <a href="account.html" aria-label="Customer account" title="Account">♙</a>
+                <a href="cart.html" class="cart-icon" aria-label="Shopping cart" title="Cart">
+                    ♧ <span class="cart-count" aria-live="polite">0</span>
+                </a>
+                <button
+                    id="menuToggle"
+                    class="hamburger"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="navbar"
+                >☰</button>
+            </div>
+        </div>
+
+        <nav id="navbar" class="nav-links" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Shop</a>
+            <a href="bestsellers.html">Best Sellers</a>
+            <a href="menu.html?category=Cakes%20%26%20Pastries">Cakes & Pastries</a>
+            <a href="menu.html?category=Crinkles">Crinkles</a>
+            <a href="menu.html?category=Bread">Bread</a>
+            <a href="menu.html?category=Drinks%20%2F%20Beverages">Drinks / Beverages</a>
+            <a href="branches.html">Branches</a>
+            <a href="about.html">About Us</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="page-banner">
+            <p class="eyebrow">DAINA’S BAKEHOUSE</p>
+            <h1>Contact Us</h1>
+            <p>
+                Questions, ideas, or a special request? We’d love to hear from you.
+            </p>
+        </section>
+
+        <section class="section contact-layout">
+            <div>
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Say hello to the bakehouse.</h2>
+                <p>
+                    For product questions, order inquiries, custom cake requests
+                    or general feedback, use the contact details below.
+                </p>
+
+                <div class="info-card">
+                    <h3>Contact Information</h3>
+                    <div id="contactBusinessDetails"></div>
+
+                    <h3>Branch Areas</h3>
+                    <ul class="contact-branch-list" id="contactBranchLinks"></ul>
+
+                    <h3>Opening Hours</h3>
+                    <p>Opening hours: Daily, 8:00 AM–7:00 PM.</p>
+
+                    <h3>Follow Us</h3>
+                    <div
+                        class="social-links contact-social-links"
+                        data-social-links
+                        aria-label="Social media profiles"
+                    ></div>
+                </div>
+            </div>
+
+            <form class="form-card local-form" data-local-form>
+                <h2>Send an Inquiry</h2>
+
+                <label>
+                    Your Name
+                    <input
+                        name="name"
+                        required
+                        maxlength="100"
+                        autocomplete="name"
+                    >
+                </label>
+
+                <label>
+                    Email Address
+                    <input
+                        type="email"
+                        name="email"
+                        required
+                        autocomplete="email"
+                    >
+                </label>
+
+                <label>
+                    Subject
+                    <input
+                        name="subject"
+                        required
+                        maxlength="150"
+                    >
+                </label>
+
+                <label>
+                    Your Message
+                    <textarea
+                        name="message"
+                        rows="5"
+                        required
+                        maxlength="1500"
+                    ></textarea>
+                </label>
+
+                <button type="submit" class="btn">Submit Inquiry →</button>
+
+                <p
+                    class="form-feedback"
+                    role="status"
+                    aria-live="polite"
+                ></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <a href="index.html" class="footer-brand">✳ Daina’s Bakehouse</a>
+                <p>
+                    Comforting bakes, thoughtful coffee and little moments
+                    worth sharing.
+                </p>
+                <p class="muted">
+                    Discover crinkles, cakes, pastries, bread and coffee for
+                    everyday treats and special occasions.
+                </p>
+            </div>
+
+            <div>
+                <h3>Shop Links</h3>
+                <a href="menu.html">All Products</a>
+                <a href="menu.html?category=Bread">Bread</a>
+                <a href="menu.html?category=Cakes">Cakes</a>
+                <a href="menu.html?category=Pastries">Pastries</a>
+                <a href="menu.html?category=Crinkles">Crinkles</a>
+                <a href="menu.html?category=Coffee">Coffee</a>
+                <a href="menu.html?category=Drinks%20%2F%20Beverages">Drinks / Beverages</a>
+                <a href="bestsellers.html">Best Sellers</a>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="branches.html">Branches</a>
+                <a href="franchising.html">Franchising</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQ</a>
+            </div>
+
+            <div>
+                <h3>Customer Links</h3>
+                <a href="account.html">My Account</a>
+                <a href="cart.html">My Cart</a>
+                <a href="checkout.html">Checkout</a>
+                <a href="faq.html">Order Information</a>
+
+                <h3 class="social-heading">Follow Us</h3>
+                <div
+                    class="social-links"
+                    data-social-links
+                    aria-label="Social media profiles"
+                ></div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Daina’s Bakehouse. All rights reserved.
+        </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
